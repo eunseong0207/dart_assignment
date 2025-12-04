@@ -28,7 +28,7 @@ void main() {
   // Dart 컬렉션 메서드 (예: .where, .map 등)를 사용하여 나이(age)가 25세 이상인 사용자들의 이름(name)만 모아 새로운 List<String>을 생성하고 출력하는 코드를 작성하세요.
   // **튜터님 조언 : for문 의로 먼저 해보기 이후 .where . map 도전 / 실제개발시 도움됨
   Map<String, dynamic> users = {'Alice': 30, 'Bob': 22, 'Charlie': 28};
-// 컬렉션 메서드 응용가능
+  // 컬렉션 메서드 응용가능
   // ----------------------------------------------
   // 3. 함수 (Named Parameters & Optionality)
   // 문제:
