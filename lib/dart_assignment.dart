@@ -16,13 +16,14 @@
 
 void main() {
   int score = 84;
-  String rating = "B";
+  String rating = "";
 
   if (score >= 90) {
-    print("이 학생의 점수는 [$score점]이며, 등급은 [A등급]입니다.");
+    rating = "[A등급]";
   } else if (score >= 80) {
-    print("이 학생의 점수는 [$score점]이며, 등급은 [B등급]입니다.");
-  } else if (score < 80) {
-    print("이 학생의 점수는 [$score점]이며, 등급은 [C등급입니다.");
+    rating = "[B등급]";
+  } else {
+    rating = "[C등급]";
   }
+  print("이 학생의 점수는 [$score] 이며, 등급은 ${rating}입니다!");
 }
