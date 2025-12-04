@@ -12,7 +12,7 @@ void main() {
   // for (int i = 1; i <= 20; i = i + 2) {
   //   print(i);
   // }
-  // i = i + 2 를 줄인게 i += 2 
+  // i = i + 2 를 줄인게 i += 2
   //   for (int i = 1; i <= 20; i += 2 ) {
   //   print(i);
   // }
@@ -20,13 +20,15 @@ void main() {
   // 2. 컬렉션 (List of Map & Filtering)
   // 문제:
   // 다음과 같이 사용자 정보(이름, 나이)를 담고 있는 List<Map<String, dynamic>>이 주어졌습니다.
-  // **튜터님 조언 : for문의로 먼저 해보기 이후 .where . map 도전 / 실제개발시 도움됨
   // final users = [
   //   {'name': 'Alice', 'age': 30},
   //   {'name': 'Bob', 'age': 22},
   //   {'name': 'Charlie', 'age': 28}
   // ];
   // Dart 컬렉션 메서드 (예: .where, .map 등)를 사용하여 나이(age)가 25세 이상인 사용자들의 이름(name)만 모아 새로운 List<String>을 생성하고 출력하는 코드를 작성하세요.
+  // **튜터님 조언 : for문 의로 먼저 해보기 이후 .where . map 도전 / 실제개발시 도움됨
+  Map<String, dynamic> users = {'Alice': 30, 'Bob': 22, 'Charlie': 28};
+// 컬렉션 메서드 응용가능
   // ----------------------------------------------
   // 3. 함수 (Named Parameters & Optionality)
   // 문제:
