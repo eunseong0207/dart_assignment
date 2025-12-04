@@ -25,5 +25,5 @@ void main() {
   } else {
     rating = "[C등급]";
   }
-  print("이 학생의 점수는 [$score] 이며, 등급은 ${rating}입니다!");
+  print("이 학생의 점수는 [$score] 이며, 등급은 $rating 입니다!");
 }
